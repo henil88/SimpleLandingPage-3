@@ -105,17 +105,3 @@ html,body{
 .img-content::-webkit-scrollbar{
     display: none;
 }
-.arrow{
-    display: flex;
-    position: relative;
-    bottom: 25%;
-    padding: 0 10px;
-    align-items: center;
-    justify-content: space-between;
-}
-.arrow i{
-    font-size: 50px;
-    backdrop-filter: blur(50px);
-    background-color:transparent;
-    padding: 5px 5px;
-}
