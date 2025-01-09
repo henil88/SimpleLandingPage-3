@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: noto sans;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+}
+.nav-1{
+    width: 100%;
+    height:10vh;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+}
+.navp-1{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 2px;
+}
+.round{
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.navp-2{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* justify-content: center; */
+}
+.navp-2 h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+.navp-2 h4 span{
+    color: #5e5a5a;
+    margin-left:1vw;
+}
+.nav-2{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3vw;
+    height: 2vh;
+    /* background-color: aliceblue; */
+}
+.nav-2 h3{
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.text-cen-part{
+    width: 100%;
+    height:35%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.elem{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.elem h1{
+    font-size: 120px;
+    font-weight: 400;
+}
+.text-cen-part::-webkit-scrollbar{
+    border-color: transparent;
+    height: 10px;
+}
+.text-cen-part::-webkit-scrollbar-thumb{
+    background-color: rgb(235, 113, 69);
+}
+.img-content{
+    display: flex;
+    width: 100%;
+    height:calc(100% - (12vh + 35%));
+    overflow-x: auto;
+}
+.img-content img{
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-content::-webkit-scrollbar{
+    display: none;
+}
+.arrow{
+    display: flex;
+    position: relative;
+    bottom: 25%;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.arrow i{
+    font-size: 50px;
+    backdrop-filter: blur(50px);
+    background-color:transparent;
+    padding: 5px 5px;
+}
